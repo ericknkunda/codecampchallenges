@@ -1,0 +1,174 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Free code camp test</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<main>
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <section>
+  <p id="description" class="pagetext"> <i>Thank you for taking the time to help us improve the platform</i></p>
+  <form id="survey-form" class="form">
+    <label class="labelsup" id="name-label">Name</label>
+    <input class="input" type="text" name="username" id="name" required placeholder="enter your name">
+    <label class="labelsup" id="email-label">Email</label>
+    <input class="input" type="email" name="useremail" id="email" required placeholder="enter your email">
+    <label class="labelsup" id="number-label">Age(optional)</label>
+    <input class="input" type="number" id="number" name="usernumber" required placeholder="enter your age" pattern="[0-9]" min="1" max="120">
+<label class="labelsup">Which option best describes your current role?</label>
+<select class="select" id="dropdown">
+  <option>Select current role</option>
+  <option>Student</option>
+  <option>Full time job</option>
+  <option>Full time learner</option>
+  <option>Prefere not tosay</option>
+  <option>Other</option>
+</select>
+<label class="labelsup">Would you recommend freeCodeCamp to a friend?</label>
+<section class="radioChrck">
+<input type="radio" name="recomendation" id="definitely" class="radio" value="Definetely">
+<label for="definitely">Definetely</label>
+</section>
+<section class="radioChrck">
+<input type="radio" name="recomendation" id="maybe" class="radio" value="May be">
+<label for="maybe"">May be</label>
+</section>
+<section class="radioChrck">
+<input type="radio" name="recomendation" id="notsure" class="radio" value="Not Sure">
+<label for="notsure">Not Sure</label>
+</section>
+<label class="labelsup">What is your favorite feature of freeCodeCamp?</label>
+<select class="select">
+  <option>Select an option</option>
+  <option>Challenges</option>
+  <option>Projects</option>
+  <option>Community</option>
+  <option>Open source</option>
+</select>
+<label class="labelsup">What would you like to see improved? (Check all that apply)</label>
+<section class="radioChrck">
+  <input type="checkbox" name="satisfaction" id="frontend" value="Front-end Projects">
+  <label for="frontend">Front-end Projects</label>
+  </section>
+  <section class="radioChrck">
+    <input type="checkbox" name="satisfaction" id="backend" value="Back-end Projects">
+    <label for="backend">Back-end Projects</label>
+  </section>
+  <section class="radioChrck">
+      <input type="checkbox" name="satisfaction" id="datavis" value="Data Visualization">
+      <label for="datavis">Data Visualization</label>
+  </section>
+  <section class="radioChrck">
+      <input type="checkbox" name="satisfaction" id="challenges" value="Challenges">
+      <label for="challenges">Challenges</label>
+  </section>
+  <section class="radioChrck">
+      <input type="checkbox" name="satisfaction" id="opensource" value="Open Source Community">
+      <label for="opensource">Open Source Community</label>
+  </section>
+  <section class="radioChrck">
+      <input type="checkbox" name="satisfaction" id="gitter" value="Gitter help rooms">
+      <label for="gitter">Gitter help rooms</label>
+  </section>
+  <section class="radioChrck">
+      <input type="checkbox" name="satisfaction" id="videos" value="Videos">
+      <label for="videos">Videos</label>
+  </section>
+  <section class="radioChrck">
+      <input type="checkbox" name="satisfaction" id="city" value="City Meetups">
+      <label for="city">City Meetups</label>
+  </section>
+  <section class="radioChrck">
+      <input type="checkbox" name="satisfaction" d="wiki" value="Wiki">
+      <label for="wiki">Wiki</label>
+  </section>
+  <section class="radioChrck">
+      <input type="checkbox" name="satisfaction" id="forum" value="Forum">
+      <label for="forum">Forum</label>
+  </section>
+  <section class="radioChrck">
+        <input type="checkbox" name="satisfaction" id="additional" value="Additional Courses">
+        <label for="additional">Additional Courses</label>
+  </section>
+<label class="labelsup">Any comments or suggestions?</label>
+<textarea class ="txtarea"></textarea>
+<input  type="submit" value="Submit" class="buttonSub" id="submit">
+    </form>
+    </section>
+</body>
+</main>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1{
+  font-family:serif;
+  text-align:center;
+}
+.labelsup{
+  font-family:serif;
+  font-size:16px;
+  margin-left:10px;
+  display:block;
+  margin-top:25px;
+  margin-bottom:10px;
+}
+.input{
+  display:block;
+  margin: 5 10;
+  width:90%;
+  height:40px;
+}
+.pagetext{
+  font-size:20px;
+  margin-left:100px;
+
+}
+.radioChrck{
+  margin-top:10px;
+}
+.buttonSub{
+  margin-top:25px;
+  margin-bottom:100px;
+  width:90%;
+  height:40px;
+  background-color:lightgreen;
+  color:white;
+  font-size:16px;
+}
+number{
+  min:10;
+  max:120;
+
+}
+.form{
+  background-color:#000023;
+  color:rgb(255,255,255);
+  padding-left:20px;
+  margin:50 50;
+}
+.select{
+  height:40px;
+  width:90%;
+  margin-left:10px;
+}
+.radio{
+  margin: 5 10;
+  /* display:block; */
+}
+.labeldown{
+  display:block;
+}
+.txtarea{
+  width:90%;;
+  height:100px;
+  display:block;
+}
+
+** end of undefined **
+
